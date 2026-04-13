@@ -9,6 +9,8 @@ import Explora from './pages/Explora';
 import ArticlePage from './pages/ArticlePage';
 import Transmedia from './pages/Transmedia';
 import Sobre from './pages/Sobre';
+import Privacidad from './pages/Privacidad';
+import Terminos from './pages/Terminos';
 import FloatingMoodPlayer from './components/FloatingMoodPlayer';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path="/explora/:slug" element={<ArticlePage />} />
           <Route path="/transmedia" element={<Transmedia />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/privacidad" element={<Privacidad />} />
+          <Route path="/terminos" element={<Terminos />} />
         </Routes>
       </main>
       <Footer />

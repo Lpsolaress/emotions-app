@@ -105,7 +105,7 @@ const Home = () => {
           animate={{ opacity: 0.8 }}
           transition={{ delay: 1, duration: 1 }}
           onClick={scrollToContent}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-80 cursor-pointer hover:opacity-100 transition-opacity z-20"
+          className="mt-10 flex flex-col items-center gap-2 opacity-80 cursor-pointer hover:opacity-100 transition-opacity z-20"
         >
           <span className="text-xs uppercase tracking-widest text-white font-semibold">Sintoniza</span>
           <span className="material-symbols-outlined animate-bounce text-white">expand_more</span>

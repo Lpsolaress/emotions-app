@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Testing
+coverage
+
+# Production
+build
+
+# Trash
+node_modules_trash
+.git_disabled
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
