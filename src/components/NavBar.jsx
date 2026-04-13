@@ -21,6 +21,7 @@ const NavBar = () => {
             src={logo} 
             alt="Emotions Logo" 
             className="h-[180%] w-auto object-contain" 
+
           />
         </Link>
         
